@@ -6,6 +6,11 @@ Este projeto tem como objetivo o desenvolvimento de um site para a **Vinharia Ag
 
 ---
 
+## 👥 Integrantes
+- Maria Eduarda Sousa Acyole de Oliveira `566337`
+
+
+---
 ## 🏢 Sobre a Vinharia Agnello
 
 A Vinharia Agnello atua no mercado de vinhos há mais de 15 anos, com uma loja física que oferece rótulos nacionais e internacionais. Um de seus maiores diferenciais é o atendimento especializado, com vendedores preparados para orientar os clientes sobre tipos de uvas, regiões vinícolas, harmonizações e ocasiões de consumo. 
