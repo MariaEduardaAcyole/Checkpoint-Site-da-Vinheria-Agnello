@@ -1,0 +1,28 @@
+:root {
+    /* Paleta principal */
+    --vinho-tinto: #730202;
+    --vermelho-forte: #bf0404;
+    --dourado: #ff970e;
+    --bege-claro: #F2cda0;
+    --verde-oliva: #8c8630;
+    --amarelo: #bfb304;
+    --cinza-escuro: #2E2E2E;
+    --branco-vinho: #FAF9F6;
+
+    /* Texto */
+    --texto-primario: #252525;
+    --texto-claro: #d6d6d6;
+
+    /* Fundo */
+    --fundo-claro: var(--branco-vinho);
+    --fundo-escuro: var(--vinho-tinto);
+
+    /* Botões */
+    --botao-principal: var(--dourado-suave);
+    --botao-hover: var(--verde-oliva);
+}
+
+
+body {
+    background-color: var(--branco-vinho);
+}
