@@ -1,0 +1,89 @@
+figure,
+article {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-produto {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    width: 90%;
+    height: 300px;
+
+
+}
+
+.card-produto:hover {
+    transform: scale(1.03);
+}
+
+.card-produto img {
+    border-radius: 8px;
+}
+
+.card-produto h3 {
+    font-weight: 500;
+    margin: 10px 0 5px;
+}
+
+.card-produto .descricao {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-produto .preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--verde-oliva);
+}
+
+.caixa-img-produto {
+    border-bottom: 1px solid black;
+    height: 50%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+#produto1 {}
+
+#card-produto-linha-1,
+table {
+    width: 100%;
+}
+
+.icone-destaque {
+    width: 40px;
+}
+
+#produto-zoom {
+    background-color: #555;
+}
+
+.slider {
+    -webkit-appearance: none;
+    /* remove o estilo padrão no Chrome */
+    height: 8px;
+    background: #c8d6b9;
+    /* cor da barra */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilo da bolinha que arrasta */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #bf0404;
+
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}

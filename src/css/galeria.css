@@ -1,0 +1,68 @@
+
+
+
+
+aside {
+    width: 10%;
+    height: 100%;
+}
+
+#img-lateral {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.img-evento {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* faz a mágica de ajustar sem distorcer */
+    object-position: center;
+    /* centraliza a imagem dentro do espaço */
+    display: block;
+
+
+}
+
+section {
+    border: none;
+
+}
+
+figure {
+    margin: 5%;
+}
+
+.imagem-com-data {
+
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* esconde qualquer parte da imagem que passar dos limites */
+    border-radius: 10px;
+    position: relative; 
+    box-shadow: 0 5px 8px var(--amarelo);
+
+}
+
+.data-evento {
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+    background-color: #8c863071;
+    border: 1px solid white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.caixa-imagens {
+    border-radius: 10%;
+}

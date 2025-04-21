@@ -12,8 +12,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
     </style>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+
     <link rel="stylesheet" href="../css/padrao.css">
-    <title>TITULO</title>
+
+    <link rel="stylesheet" href="../css/galeria.css">
+    <title>Galeria</title>
 </head>
 
 <body>
@@ -21,53 +28,108 @@
     <!-- Cabeçalho do site -->
     <header>
         <h1 id="logo">Vinheria Agnello</h1>
+        <hr>
+
         <nav class="navegacao">
-            <a href="../../index.html">Home</a>
-            <a href="./historia.html">História</a>
+            <a href="../../index.html">Inicio</a>
+            <a href="./historia.html">Sobre</a>
             <a href="./produtos.html">Produtos</a>
-            <a href="./galeria.html">Galeria</a>
             <a href="./contato.html">Contato</a>
+            <a href="./galeria.html">Galeria</a>
+
+            <a href="" id="navSearch"><img src="../assets/imgs/NavSearch.png" alt="" class="icones-nav"></a>
+            <a href="" id="navBag"><img src="../assets/imgs/NavBag.png" alt="" class="icones-nav"></a>
+
         </nav>
     </header>
+    <hr>
 
+    <!-- MAIN -->
     <main>
-        <h2>Eventos</h2> 
-     
-                    <section>
-                        
-                    </section>
-             
-
-        <h2></h2>
-    </main>
-
-    <!-- Rodapé do site -->
-    <footer>
+        <!-- Sessão de eventos -->
+        <h2>Eventos</h2>
         <table>
             <tr>
-                <td colspan="3" class="footer-logo">
-                    <h2>Vinheria Agnello</h2>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">10/02/2025</div>
+                            <img src="../assets/imgs/evento proWine.jpeg" alt="Evento ProWine" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">15/03/2025</div>
+                            <img src="../assets/imgs/evento1.jpg" alt="Degustação Especial" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">22/04/2025</div>
+                            <img src="../assets/imgs/evento2.jpeg" alt="Festival de Vinhos" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Sessão de lojas -->
+        <h2>Lojas</h2>
+        <table>
+            <tr>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">Loja São Paulo</div>
+                            <img src="../assets/imgs/loja1.jpeg" alt="Loja São Paulo" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">Loja São Paulo</div>
+                            <img src="../assets/imgs/loja2.jpeg" alt="Loja Campinas" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+                <td>
+                    <section class="caixa-imagens">
+                        <figure class="imagem-com-data">
+                            <div class="data-evento">Loja São Paulo</div>
+                            <img src="../assets/imgs/loja3.jpeg" alt="Loja Rio de Janeiro" class="img-evento">
+                        </figure>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <br>
+    <!-- Rodapé do site -->
+    <footer id="footer">
+        <table>
+            <tr>
+                <td id="coluna-1">
+                    <img src="./../assets/imgs/logo-footer.png" alt="" id="footer-logo">
+                </td>
+                <td id="coluna-2">
+                    <img src="../assets/imgs/IconEmail.png" alt="">
+                    contato@vinheriaagnello.com
+                    <br>
+                    <img src="../assets/imgs/IconLoc.png" alt="">
+                    Rua dos Vinhos, 456 São Paulo - SP
+                    <br>
+                    <img src="../assets/imgs/IconWpp.png" alt="">
+                    @vinheriaagnello
                 </td>
             </tr>
             <tr>
-                <td>
-                    <h4>Contato</h4>
-                    <p>Email: contato@vinheriaagnello.com</p>
-                    <p>Telefone: (11) 1234-5678</p>
-                </td>
-                <td>
-                    <h4>Endereço</h4>
-                    <p>Rua dos Vinhos, 456</p>
-                    <p>São Paulo - SP</p>
-                </td>
-                <td>
-                    <h4>Redes Sociais</h4>
-                    <p>Instagram: @vinheriaagnello</p>
-                    <p>Facebook: Vinheria Agnello</p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" class="footer-copy">
+                <td colspan="4" class="footer-copy">
                     <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
                 </td>
             </tr>

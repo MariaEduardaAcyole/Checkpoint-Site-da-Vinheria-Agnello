@@ -26,3 +26,97 @@
 body {
     background-color: var(--branco-vinho);
 }
+
+#logo {
+    color: var(--cinza-escuro);
+    font-family: "playfair", sans-serif;
+    font-size: 40px;
+}
+
+.navegacao {
+    width: 100%;
+    font-size: 24px;
+    word-spacing: 60px;
+}
+
+a {
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: var(--texto-primario);
+    text-decoration: none;
+
+}
+
+hr{
+    color: #252525;
+}
+
+h2{
+    font-family: "roboto";
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+.icones-nav {
+    width: 2rem;
+    padding: 1%;
+}
+
+#navSearch{
+    margin-left: 300px;
+}
+
+#footer-logo{
+    width: 200px;
+    margin-right: 250px;
+}
+
+
+
+#footer {
+    background-color: var(--fundo-escuro);
+    /* vinho escuro */
+    color: var(--texto-claro);
+    /* branco suave */
+    padding: 20px 10px;
+}
+
+footer table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+footer h4 {
+    margin-bottom: 8px;
+    color: var(--dourado-suave);
+    /* dourado elegante */
+    font-size: 16px;
+}
+
+.footer-logo h2 {
+    font-family: "Playfair", serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--dourado-suave);
+}
+
+.footer-copy p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--texto-claro);
+}
+
+
+#coluna-1{
+}
+#coluna-2{
+    width: 30%;
+    text-align: left;
+}

@@ -12,8 +12,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
     </style>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+
     <link rel="stylesheet" href="../css/padrao.css">
-    <title>TITULO</title>
+
+    <link rel="stylesheet" href="../css/produto.css">
+    <title>Produtos</title>
 </head>
 
 <body>
@@ -21,53 +28,237 @@
     <!-- Cabeçalho do site -->
     <header>
         <h1 id="logo">Vinheria Agnello</h1>
+        <hr>
+
         <nav class="navegacao">
-            <a href="../../index.html">Home</a>
-            <a href="./historia.html">História</a>
+            <a href="../../index.html">Inicio</a>
+            <a href="./historia.html">Sobre</a>
             <a href="./produtos.html">Produtos</a>
-            <a href="./galeria.html">Galeria</a>
             <a href="./contato.html">Contato</a>
+            <a href="./galeria.html">Galeria</a>
+
+            <a href="" id="navSearch"><img src="../assets/imgs/NavSearch.png" alt="" class="icones-nav"></a>
+            <a href="" id="navBag"><img src="../assets/imgs/NavBag.png" alt="" class="icones-nav"></a>
+
         </nav>
     </header>
+    <hr>
 
+    <!-- MAIN -->
     <main>
-        <h2>Eventos</h2> 
-     
-                    <section>
-                        
-                    </section>
-             
+        <h2>Conheça Nossos Produtos</h2>
 
-        <h2></h2>
+        <section id="grade-produtos">
+            <table>
+                <tr id="linha-1-grade-de-produtos">
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </article>
+                    </td>
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </article>
+                    </td>
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </article>
+                    </td>
+
+
+
+                </tr>
+
+                <!-- ZOOM PRODUTO PRESONALIZAVEL -->
+                <tr id="produto-zoom">
+                    <td>
+                        <input type="checkbox" name="" id="Acidez">
+                        <label for="Acidez">Acidez</label>
+                        <br>
+                        <input type="checkbox" name="" id="Maturação">
+                        <label for="Maturação">Maturação</label>
+                        <br>
+                        <input type="checkbox" name="" id="Adstringencia">
+                        <label for="Adstringencia">Maturação</label>
+                        <br>
+                        <input type="checkbox" name="" id="Gaseificação">
+                        <label for="Gaseificação">Gaseificação</label>
+
+                    </td>
+                    <td>
+                        <figure class="caixa-img-produto">
+                            <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                        </figure>
+                    </td>
+                    <td>
+                        <label for="Aroma">Aroma:</label>
+                        <br>
+                        <input type="range" id="Aroma" name="Aroma" min="Doce" max="Azedo" value="5" class="slider">
+                        <br>
+                        <label for="Aroma">Teor Alcoolico:</label>
+<br>
+                     
+
+                    </td>
+                </tr>
+
+                <tr id="linha-2-grade-de-produtos">
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </article>
+                    </td>
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </article>
+                    </td>
+                    <td>
+                        <article class="card-produto">
+                            <figure class="caixa-img-produto">
+                                <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
+                            </figure>
+
+                            <h3>Nome do Vinho</h3>
+                            <table>
+                                <tr id="card-produto-linha-1">
+                                    <td><img src="../assets/imgs/IconDestaque.png" alt="Ícone de destaque"
+                                            class="icone-destaque">
+                                    </td>
+
+                                    <td>
+                                        <p class="descricao">Acidez e aroma</p>
+                                    </td>
+                                    <td> <span class="preco">R$60</span>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                        </article>
+                    </td>
+
+
+
+                </tr>
+            </table>
+        </section>
     </main>
 
+    <br>
     <!-- Rodapé do site -->
-    <footer>
+    <footer id="footer">
         <table>
             <tr>
-                <td colspan="3" class="footer-logo">
-                    <h2>Vinheria Agnello</h2>
+                <td id="coluna-1">
+                    <img src="./../assets/imgs/logo-footer.png" alt="" id="footer-logo">
+                </td>
+                <td id="coluna-2">
+                    <img src="../assets/imgs/IconEmail.png" alt="">
+                    contato@vinheriaagnello.com
+                    <br>
+                    <img src="../assets/imgs/IconLoc.png" alt="">
+                    Rua dos Vinhos, 456 São Paulo - SP
+                    <br>
+                    <img src="../assets/imgs/IconWpp.png" alt="">
+                    @vinheriaagnello
                 </td>
             </tr>
             <tr>
-                <td>
-                    <h4>Contato</h4>
-                    <p>Email: contato@vinheriaagnello.com</p>
-                    <p>Telefone: (11) 1234-5678</p>
-                </td>
-                <td>
-                    <h4>Endereço</h4>
-                    <p>Rua dos Vinhos, 456</p>
-                    <p>São Paulo - SP</p>
-                </td>
-                <td>
-                    <h4>Redes Sociais</h4>
-                    <p>Instagram: @vinheriaagnello</p>
-                    <p>Facebook: Vinheria Agnello</p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" class="footer-copy">
+                <td colspan="4" class="footer-copy">
                     <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
                 </td>
             </tr>
