@@ -12,8 +12,10 @@ article {
     transition: transform 0.2s;
     width: 90%;
     height: 300px;
+}
 
-
+.caixa-card-produto{
+    width: 30%;
 }
 
 .card-produto:hover {
@@ -45,7 +47,9 @@ article {
     border-bottom: 1px solid black;
     height: 50%;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
+    background-color: #8c8630;
+    margin: 25px;
 }
 
 
@@ -61,9 +65,18 @@ table {
 }
 
 #produto-zoom {
-    background-color: #555;
-}
+    background-color:  #8c8630;
+    width:80%;
+    height: 500px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
 
+}
+#porcentagem-alcoolica{
+    font-size: 60px;
+    color:   #2E2E2E    ;
+}
 .slider {
     -webkit-appearance: none;
     /* remove o estilo padrão no Chrome */
@@ -86,4 +99,45 @@ table {
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+#table-grade-produtos{
+    border-spacing: 0 10px; /* 0 nas colunas, 10px entre as linhas */
+
+}
+
+#coluna1-checkbox-personalizacao{
+}
+#caixa-checkbox-personalizacao{
+text-align: left;
+margin-left: 50px;
+line-height:50px;
+}
+
+.caixa-img-produto-zoom{
+    overflow: hidden;
+    width: 90%;
+    background-color: #c8d6b9;
+    margin: 25px;
+    height: 350px;
+    text-align: center;
+
+}
+#produto1{
+    height: 100%;
+}
+#texto-personalize-seu-vinho{
+ margin-bottom: 50px;
+
+}
+
+#caixa-produto{
+    text-align: center;
+}
+.icon-seta{
+    display: inline-block;
+    width: 50px;
+}
+#porcentagem-alcoolica{
+    display: inline-block; 
 }

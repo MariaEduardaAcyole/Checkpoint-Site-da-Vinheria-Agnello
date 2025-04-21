@@ -49,9 +49,9 @@
         <h2>Conheça Nossos Produtos</h2>
 
         <section id="grade-produtos">
-            <table>
+            <table id="table-grade-produtos">
                 <tr id="linha-1-grade-de-produtos">
-                    <td>
+                    <td class="caixa-card-produto">
                         <article class="card-produto">
                             <figure class="caixa-img-produto">
                                 <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
@@ -74,7 +74,7 @@
 
                         </article>
                     </td>
-                    <td>
+                    <td class="caixa-card-produto">
                         <article class="card-produto">
                             <figure class="caixa-img-produto">
                                 <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
@@ -97,7 +97,7 @@
 
                         </article>
                     </td>
-                    <td>
+                    <td class="caixa-card-produto">
                         <article class="card-produto">
                             <figure class="caixa-img-produto">
                                 <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
@@ -128,22 +128,25 @@
 
                 <!-- ZOOM PRODUTO PRESONALIZAVEL -->
                 <tr id="produto-zoom">
-                    <td>
-                        <input type="checkbox" name="" id="Acidez">
-                        <label for="Acidez">Acidez</label>
-                        <br>
-                        <input type="checkbox" name="" id="Maturação">
-                        <label for="Maturação">Maturação</label>
-                        <br>
-                        <input type="checkbox" name="" id="Adstringencia">
-                        <label for="Adstringencia">Maturação</label>
-                        <br>
-                        <input type="checkbox" name="" id="Gaseificação">
-                        <label for="Gaseificação">Gaseificação</label>
 
+                    <td id="coluna1-checkbox-personalizacao">
+                        <p id="caixa-checkbox-personalizacao">
+                            <input type="checkbox" name="" id="Acidez">
+                            <label for="Acidez">Acidez</label>
+                            <br>
+                            <input type="checkbox" name="" id="Maturação">
+                            <label for="Maturação">Maturação</label>
+                            <br>
+                            <input type="checkbox" name="" id="Adstringencia">
+                            <label for="Adstringencia">Maturação</label>
+                            <br>
+                            <input type="checkbox" name="" id="Gaseificação">
+                            <label for="Gaseificação">Gaseificação</label>
+                        </p>
                     </td>
-                    <td>
-                        <figure class="caixa-img-produto">
+                    <td id="coluna2-img-produto-personalizacao">
+                        <h2 id="texto-personalize-seu-vinho">Personalize seu vinho</h2>
+                        <figure class="caixa-img-produto-zoom">
                             <img src="../assets/imgs/vinho.png" alt="Imagem do Vinho" id="produto1">
                         </figure>
                     </td>
@@ -152,11 +155,20 @@
                         <br>
                         <input type="range" id="Aroma" name="Aroma" min="Doce" max="Azedo" value="5" class="slider">
                         <br>
+                        <br>
+                        <br>
                         <label for="Aroma">Teor Alcoolico:</label>
-<br>
-                     
+                        <figure style="" id="caixa-porcentagem">
+                            <img src="../assets/imgs/IconSetaBaixo.png" alt="" class="icon-seta">
+                            <h1 id="porcentagem-alcoolica">30%</h1>
+                            <img src="../assets/imgs/IconSetaCima.png" alt="" class="icon-seta">
+                        </figure>
+                        
+                        <br>
+
 
                     </td>
+
                 </tr>
 
                 <tr id="linha-2-grade-de-produtos">
@@ -239,31 +251,31 @@
     </main>
 
     <br>
-    <!-- Rodapé do site -->
-    <footer id="footer">
-        <table>
-            <tr>
-                <td id="coluna-1">
-                    <img src="./../assets/imgs/logo-footer.png" alt="" id="footer-logo">
-                </td>
-                <td id="coluna-2">
-                    <img src="../assets/imgs/IconEmail.png" alt="">
-                    contato@vinheriaagnello.com
-                    <br>
-                    <img src="../assets/imgs/IconLoc.png" alt="">
-                    Rua dos Vinhos, 456 São Paulo - SP
-                    <br>
-                    <img src="../assets/imgs/IconWpp.png" alt="">
-                    @vinheriaagnello
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4" class="footer-copy">
-                    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
-                </td>
-            </tr>
-        </table>
-    </footer>
+ <!-- Rodapé do site -->
+ <footer id="footer">
+    <table>
+        <tr>
+            <td id="coluna-1">
+                <img src="./../assets/imgs/logo-footer.png" alt="" id="footer-logo">
+            </td>
+            <td id="coluna-2">
+                <img src="../assets/imgs/IconEmail.png" alt="">
+                contato@vinheriaagnello.com
+                <br>
+                <img src="../assets/imgs/IconLoc.png" alt="">
+                Rua dos Vinhos, 456 São Paulo - SP
+                <br>
+                <img src="../assets/imgs/IconWpp.png" alt="">
+                @vinheriaagnello
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="footer-copy">
+                <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+            </td>
+        </tr>
+    </table>
+</footer>
 
 </body>
 
