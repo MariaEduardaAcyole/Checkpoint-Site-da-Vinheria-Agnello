@@ -4,7 +4,8 @@
 
 Este projeto tem como objetivo o desenvolvimento de um site para a **Vinharia Agnello**, uma tradicional loja de vinhos localizada em São Paulo, com mais de 15 anos de história. A proposta é simular a presença digital da loja, aplicando os conhecimentos adquiridos em HTML e CSS, e criando uma experiência de navegação completa para os usuários.
 
----
+## Link do Github Pages
+`https://mariaeduardaacyole.github.io/Checkpoint-Site-da-Vinheria-Agnello/`
 
 ## 👥 Integrantes
 - Maria Eduarda Sousa Acyole de Oliveira `566337`
