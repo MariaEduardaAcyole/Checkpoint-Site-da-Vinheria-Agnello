@@ -1,0 +1,67 @@
+p{
+    font-family: "Roboto";
+}
+form{
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 100%;
+    font-family: "Roboto";
+}
+h2{
+    font-family: "Roboto";
+ 
+}
+button{
+   width: 100%; 
+   padding: 10px; 
+   border-radius: 8px; 
+   font-weight: bold;
+   background-color:  #bf0404;
+   color: #fff;
+   border: 0px;
+   font-size: 20px;
+}
+
+input , textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#email{
+    width: 100%;
+}
+#nome , #sobrenome{
+width: 35%;
+}
+#mensagem{
+    width: 100%;
+}
+
+.table-estrutura{
+    width: 100%;
+}
+
+.caixa-download{
+    width: 150px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    text-align: center; 
+    font-family: sans-serif; 
+    overflow: hidden;
+}
+.cabeçalho-caixa-download{
+    background-color: #bfb304; 
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+.caixa-link-download{
+    padding: 20px;
+}
+.link-download{
+text-decoration: none; 
+color: black;
+}
+
+.coluna1-form{
+    width: 50%;
+}
