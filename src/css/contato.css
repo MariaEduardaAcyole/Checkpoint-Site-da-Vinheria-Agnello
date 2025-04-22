@@ -65,3 +65,25 @@ color: black;
 .coluna1-form{
     width: 50%;
 }
+
+.lista {
+    list-style: none; /* remove as bolinhas padrão */
+    padding-left: 0;
+  }
+  
+  .lista li {
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    border-left: 4px solid #800020; 
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* sombra */
+    transition: background-color 0.3s ease;
+  }
+  
+  .lista li:hover {
+    background-color: #730202; 
+    color: #fff;
+  }
+  
