@@ -1,8 +1,8 @@
 body {
     font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+    
+    
+    background-color: var(--branco-vinho);
     color: #333;
   }
 

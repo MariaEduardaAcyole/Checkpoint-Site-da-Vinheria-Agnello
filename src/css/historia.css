@@ -1,0 +1,83 @@
+body{
+    font-family: "Roboto";
+}
+section {
+    margin: 50px;
+}
+
+.section-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    margin-bottom: 10px;
+}
+
+.section-content img {
+    float: right;
+    margin-left: 50px;
+}
+
+.section-content img.img-left {
+    float: left;
+    margin-right: 50px;
+    width: 250px;
+    height: 200px;
+    /* Ajuste do tamanho da imagem */
+}
+
+.section-content img.img-right {
+    float: right;
+    margin-left: 100px;
+    width: 265px;
+    /* Ajuste do tamanho da imagem */
+}
+
+.section-text {
+    max-width: 30000px;
+    margin-right: 50px;
+}
+
+.section-textdown {
+    max-width: 1000px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.img-margin {
+    margin: 2px;
+    /* Margem adicional para todas as imagens */
+    border: 3px solid black;
+    /* Borda preta */
+}
+
+.navegacao {
+    width: 100%;
+    font-size: 24px;
+    word-spacing: 60px;
+    text-align: left;
+
+}
+  .table-historia {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .coluna-table-historia-header {
+    background-color:  #730202;
+    color: white;
+    text-align: left;
+  }
+
+  .coluna-table-historia {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
