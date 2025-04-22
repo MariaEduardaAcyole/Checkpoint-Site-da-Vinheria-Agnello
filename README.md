@@ -9,6 +9,8 @@ Este projeto tem como objetivo o desenvolvimento de um site para a **Vinharia Ag
 ## 👥 Integrantes
 - Maria Eduarda Sousa Acyole de Oliveira `566337`
 - Gabriela Abdelnor Tavares `562291`
+- Arthur Marcio de Barros Silva `563359`
+- Matheus goes da Silva `566407`
 
 ---
 ## 🏢 Sobre a Vinharia Agnello
