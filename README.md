@@ -14,13 +14,6 @@ Este projeto tem como objetivo o desenvolvimento de um site para a **Vinharia Ag
 - Matheus goes da Silva `566407`
 
 ---
-## 🏢 Sobre a Vinharia Agnello
-
-A Vinharia Agnello atua no mercado de vinhos há mais de 15 anos, com uma loja física que oferece rótulos nacionais e internacionais. Um de seus maiores diferenciais é o atendimento especializado, com vendedores preparados para orientar os clientes sobre tipos de uvas, regiões vinícolas, harmonizações e ocasiões de consumo. 
-
-Durante a pandemia, a vinheria enfrentou desafios devido à queda no fluxo da loja física, levando à necessidade de explorar o ambiente digital e atender seus clientes de forma online.
-
----
 ## Tecnologias utilizadas 
 - HTML
 - CSS
@@ -37,3 +30,28 @@ A estrutura do site conta com 5 páginas principais, cada uma com conteúdo úni
 - **`contato.html`**: Canal direto de comunicação + transparência jurídica.
 - **`galeria.html`**: Fotos e vídeos de eventos passados na loja ou vinhedo e vídeo incorporado do YouTube
 
+---
+
+## 🧿 Efeitos Visuais 
+🎯 Pseudo-classes
+- :hover, :focus, :nth-child(), :not(), :checked
+
+🎯 Pseudo-elementos
+- ::before, ::after, ::first-letter, ::selection
+
+💫 Animações
+- banner animado, entrada de conteúdo, ícones pulsando etc.
+  
+🔄 Transições
+- mudança de cor, sombra, tamanho em hover ou focus
+  
+🎢 Transformações
+- scale(), rotate(), translate(), skew() em imagens, botões ou seções específicas
+
+---
+
+## 🏢 Sobre a Vinharia Agnello
+
+A Vinharia Agnello atua no mercado de vinhos há mais de 15 anos, com uma loja física que oferece rótulos nacionais e internacionais. Um de seus maiores diferenciais é o atendimento especializado, com vendedores preparados para orientar os clientes sobre tipos de uvas, regiões vinícolas, harmonizações e ocasiões de consumo. 
+
+Durante a pandemia, a vinheria enfrentou desafios devido à queda no fluxo da loja física, levando à necessidade de explorar o ambiente digital e atender seus clientes de forma online.
