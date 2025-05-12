@@ -32,3 +32,11 @@
   /* aumenta 20% */
 }
 
+/*logo em todas as paginas*/
+#logo:hover {
+  color: #bf0404;
+  transform: scale(1.05) skew(-3deg, 0deg) translateX(5px);
+  transition: transform 0.6s ease;
+  transform-origin: left ;
+  width: 90%;
+}
