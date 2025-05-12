@@ -66,3 +66,26 @@ figure {
 .caixa-imagens {
     border-radius: 10%;
 }
+
+@keyframes expandirImagem {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes voltarImagem {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.img-evento:hover {
+    animation: expandirImagem 0.3s forwards;
+    transition: transform 0.3s ease-in-out;
+}

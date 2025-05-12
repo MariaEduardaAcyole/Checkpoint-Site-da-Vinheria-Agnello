@@ -81,3 +81,33 @@ section {
     border: 1px solid #ccc;
     padding: 10px;
   }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animar-direita {
+    animation: slideInRight 0.8s ease-out both;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animar-esquerda {
+    animation: slideInLeft 0.8s ease-out forwards;
+  }
