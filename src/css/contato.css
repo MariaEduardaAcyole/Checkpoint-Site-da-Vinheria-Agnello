@@ -86,5 +86,18 @@ color: black;
     background-color: #730202; 
     color: #fff;
   }
+
+
+  .lista li:first-child {
+    border-left: 4px solid #004d00; /* verde escuro */
+    font-weight: bold;
+}
+
+/* 2. Quando o formulário contiver um campo focado */
+form:focus-within {
+    box-shadow: 0 0 10px rgba(191, 4, 4, 0.6); /* vermelho suave */
+    border-color: #bf0404;
+    transition: 0.3s ease;
+}
   
   @import url('./efeitos.css');

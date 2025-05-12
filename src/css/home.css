@@ -56,11 +56,22 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
   }
+
+  #logo::before {
+    content: "🍷 ";
+    font-size: 1.2em;
+}
   
   .slogan p {
     font-size: 15px;
     line-height: 1.6;
   }
+
+  .slogan h2::after {
+    content: " 🍇";
+    color: #730202;
+    font-weight: normal;
+}
   
   .descricao {
     text-align: center;

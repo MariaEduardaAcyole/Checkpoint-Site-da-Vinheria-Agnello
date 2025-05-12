@@ -33,6 +33,11 @@ body {
     font-size: 40px;
 }
 
+ #logo::before {
+    content: "🍷 ";
+    font-size: 1.2em;
+}
+
 .navegacao {
     width: 100%;
     font-size: 24px;
