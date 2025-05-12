@@ -94,3 +94,5 @@ body {
   .produto p {
     font-size: 14px;
   }
+
+  @import url('./efeitos.css');

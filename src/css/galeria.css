@@ -66,3 +66,4 @@ figure {
 .caixa-imagens {
     border-radius: 10%;
 }
+@import url('./efeitos.css');

@@ -141,3 +141,5 @@ line-height:50px;
 #porcentagem-alcoolica{
     display: inline-block; 
 }
+
+@import url('./efeitos.css');
