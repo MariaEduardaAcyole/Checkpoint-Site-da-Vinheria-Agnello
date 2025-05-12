@@ -111,3 +111,5 @@ section {
   .animar-esquerda {
     animation: slideInLeft 0.8s ease-out forwards;
   }
+  
+  @import url('./efeitos.css');

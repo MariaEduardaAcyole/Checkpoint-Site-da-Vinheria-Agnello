@@ -1,0 +1,42 @@
+/*muda as imagens da galeria */
+.imagem-com-data:hover {
+  transform: scale(1.05) rotate(1deg);
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*muda o botao de enviar na pagina contato*/
+.botao-efeito {
+  background-color: #bf0404;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.botao-efeito:hover {
+  transform: scale(0.98);
+  background-color: #8c8630;
+}
+
+/*imagens da pagina sobre*/
+.img-zoom {
+  transition: transform 0.4s ease-in-out;
+  cursor: zoom-in;
+}
+
+.img-zoom:hover {
+  transform: scale(1.05);
+  /* aumenta 20% */
+}
+
+/*logo em todas as paginas*/
+#logo:hover {
+  color: #bf0404;
+  transform: scale(1.05) skew(-3deg, 0deg) translateX(5px);
+  transition: transform 0.6s ease;
+  transform-origin: left ;
+  width: 90%;
+}

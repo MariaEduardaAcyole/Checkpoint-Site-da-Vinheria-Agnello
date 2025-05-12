@@ -89,3 +89,5 @@ figure {
     animation: expandirImagem 0.3s forwards;
     transition: transform 0.3s ease-in-out;
 }
+
+@import url('./efeitos.css');
