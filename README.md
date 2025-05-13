@@ -34,19 +34,24 @@ A estrutura do site conta com 5 páginas principais, cada uma com conteúdo úni
 
 ## 🧿 Efeitos Visuais 
 🎯 Pseudo-classes
-- :hover, :focus, :nth-child(), :not(), :checked
+- Adicionamos zoom dinamico as imagens da galeria
+- Adicionamos zoom no card do produto
 
 🎯 Pseudo-elementos
-- ::before, ::after, ::first-letter, ::selection
+- Input com seleção
+- Lista com mudança de cor e efeito
 
 💫 Animações
-- banner animado, entrada de conteúdo, ícones pulsando etc.
+- Expandir e voltar imagens no sobre
+- Textos movimentam ao carregar a pagina
   
 🔄 Transições
-- mudança de cor, sombra, tamanho em hover ou focus
+- Mudança de cor no botão do formulario
+- Efeito suave ao carregar as paginas
   
 🎢 Transformações
-- scale(), rotate(), translate(), skew() em imagens, botões ou seções específicas
+- Inclinação e zoom na imagens da galeria
+- Efeito de movimento no logo em todas as paginas
 
 ---
 
