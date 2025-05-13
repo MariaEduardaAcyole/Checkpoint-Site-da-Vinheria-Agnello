@@ -28,7 +28,7 @@ input , textarea{
     border-radius: 5px;
 }
 #email{
-    width: 100%;
+    width: 95%;
 }
 #nome , #sobrenome{
 width: 35%;
@@ -66,38 +66,6 @@ color: black;
     width: 50%;
 }
 
-.lista {
-    list-style: none; /* remove as bolinhas padrão */
-    padding-left: 0;
-  }
-  
-  .lista li {
-    background-color: #f8f8f8;
-    margin-bottom: 10px;
-    padding: 12px 16px;
-    border-left: 4px solid #800020; 
-    border-radius: 6px;
-    font-size: 16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* sombra */
-    transition: background-color 0.3s ease;
-  }
-  
-  .lista li:hover {
-    background-color: #730202; 
-    color: #fff;
-  }
 
-
-  .lista li:first-child {
-    border-left: 4px solid #004d00; /* verde escuro */
-    font-weight: bold;
-}
-
-/* 2. Quando o formulário contiver um campo focado */
-form:focus-within {
-    box-shadow: 0 0 10px rgba(191, 4, 4, 0.6); /* vermelho suave */
-    border-color: #bf0404;
-    transition: 0.3s ease;
-}
   
   @import url('./efeitos.css');
